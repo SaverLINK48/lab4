@@ -5,4 +5,34 @@
 	<title>ITMD 361: Fundamentals of Web Development</title> 
   </head> 
   <body>
-  
+    <form action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+	  <h1> Volunteer Form </h1> 
+	    <div class="First_Name">
+		  <label> First Name: <input="text" name="first_name_field"></label> 
+		</div> 
+		<div class="Last_Name">
+		  <label> Last Name: <input="text" name="last_name_field"></label> 
+		</div> 
+		<div class="Cell">
+		  <label> Phone Number: <input type="tel" name="phone_field"></label> 
+		</div>
+		<div class="Electronic_Mail">
+		  <label> First Name: <input="text" name="email_field"></label> 
+		</div>
+		<div class="Gender">
+		  <label> Male: <input type="radio" name="gender_field" value="male"></label> 
+		  <label> Female: <input type="radio" name="gender_field" value="female"></label> 
+		</div>
+		<div class="AgeChoice">
+		  <select name="age_field">
+			<option value="under 18" >Under 18</option>
+			<option value="18-24" >18-24</option>
+			<option value="25-34" >25-34</option>
+			<option value="35-44" >35-44</option>
+			<option value="45-54" >45-54</option>
+			<option value="55-64" >55-64</option>
+			<option value="older than 65" >65 and over</option>
+          </select> 
+	</form>
+  </body>
+</html>
